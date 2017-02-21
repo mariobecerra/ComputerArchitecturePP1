@@ -392,7 +392,7 @@ La unidad de control se puede ver implementada en la figura \ref{fig:control_log
 Con las instrucciones de la computadora anterior, se diseñó un programa en un pseudo lenguaje ensamblador para ejecutar el siguiente operador ternario de C.
 
 \begin{verbatim}
-    x = (x > y) ? 0 : x + 1    
+    x = (x < y) ? 0 : x + 1    
 \end{verbatim}
 
 Se asume que \texttt{x} se encuentra en la localidad de memoria $20$, \texttt{y} en la $21$ y que el programa se carga a partir de la localidad $0$.
